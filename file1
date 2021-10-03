@@ -1,0 +1,115 @@
+file permissons three different users
+U-owner/user
+g-group
+o-other
+
+To change file permissions we have two different methods
+-Numeric and Symbolic
+
+
+main command - chmod
+
+read-r
+write-w
+execte -x
+
+read value is 4
+write value is 2
+excecte value is 1
+
+if 0 indicate their is no permissions
+
+chmod 700 filename
+
+chown to change owner
+
+chown -R roor:roor /home/ec2-user/test-dir
+
+
+CI/CD
+Continues Integration & Continious delivery
+
+Coding - developers(.java)
+Build(war file/Jar file)
+testing
+deploy
+
+1st tool in devOps
+SCM tools
+VCS(Git,Github,bitbucket,gitlab,vsts,svn)
+
+What is SCM(source code Management or software configuration management?
+
+process/tracking of source code
+
+VCS-version control system(to achive SCM process we use VCS)
+
+-Installation
+Linux - yum install 
+
+terminology
+
+-------------
+
+
+
+1. cVCS-centralized version  svn
+2. dVCS-distributed version - git, 
+
+
+GIT
+---
+
+step1: Installation in windows and Linux
+
+in linux we have to install in yum package
+
+-Repository -> .git
+-checkout -> 
+-Branch -> paralal
+-workspace -> are local repository
+-pull request(PR) -> 
+-Commands
+-Fork
+
+Repository:-
+
+step1: create folder(mkdir)
+step2: move to that folder
+step3: git init
+step4: 
+
+
+Github account
+
+create in site is called git
+
+step1: crete github accout 
+step2: repository
+
+we have to set configurations with username nd email ID
+command is 
+
+when working in git we will be havimg three directories
+1.working
+1.Staging/index
+3.commiting dir/leco repo(git commit -m 'this is my test commit')
+
+git status - to check file status(when file shows in red it says that file still not added to git)
+git add file-name - move to staging dir
+git config --global user.email "nandeeshroyal987@gmail.com"
+git config --global user.name "Nandeesh"
+
+
+
+--------------
+
+->Fork is notng but copying to git
+->Clone repository
+command-git clone "repo-url"
+->changes should be
+->push the changes
+
+
+https://github.com/devOps2021-22(organisaion URL) should not change anything
+https://github.com/Nandeesh1122(u r in profile) 
